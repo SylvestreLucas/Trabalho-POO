@@ -1,4 +1,4 @@
-# Trabalho-POO
+# Trabalho-POO (JAVA - PRINCIPIOS DE ABSTRAÇÃO)
 Repositorio para arquivos provenientes dos trabalhos solicitados pelo professor em sala de aula.
 
 
