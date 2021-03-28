@@ -1,0 +1,45 @@
+Trabalho POO - Abstração JAVA
+Integrantes: Davi Esteves 202051279371| Mary Lucati 202051380152| Lucas Sylvestre 202051380152| Vinicius Barreto 201751128075.
+
+Abstração feita com base no site de entregas Zé Delivery.
+
+
+Objetos que compõem o sistema (Com base na nossa abstração feita no sistema)
+
+1- Usuário(tipo: publica):
+Responsável por receber os dados primários para cadastro como; nome, senha, localização e telefone para contato.
+ 
+2- Tela inicial(tipo: publica):
+Após acesso ao sistema, o usuário é redirecionado a tela Inicial da plataforma onde são dispostas todas as infos (localização, produtos, sacola, pesquisar produtos)
+
+3- Produtos(abstrata):
+Dispõe as opções disponíveis no site (bebidas, e comidas)
+4- Sacola (tipo: publica):
+Irá receber todos os produtos que foram selecionados pelo Cliente/usuário, recebe todas as infos do usuário como (localização, endereço, método de pagamento, preço total, e frete)
+5- Pagamento(tipo: pública) :
+Dispõe dos métodos disponíveis para que o usuário possa prosseguir com sua compra
+6- Distribuidor( tipo: publica):
+Contém as informações do responsável pela entrega do produto solicitado pelo usuário. 
+
+7- Promoção(tipo: publica):
+Dispõe de itens com preços promocionais.
+
+8- Status (tipo: publica):
+Mostra ao cliente em qual fase o pedido dele se encontra (pedido aceito, saiu para entrega, entregue)
+9- Frete(tipo: publica)
+De acordo com a localização do cliente e mostrado o valor do frete referente ao pedido.
+10- Localização(tipo: publica):
+Recebe as informações a partir do cadastro do cliente e serve como base para quem irá fazer a entrega do pedido
+
+      11 - Bebidas (tipo: Abstrata)
+	Serve como base para outros tipos de bebidas (subclasses) em que          aproveitamos alguns atributos que estão listados em bebidas. Como por exemplo: vinhos, cervejas.
+
+
+
+
+
+
+
+
+
+
