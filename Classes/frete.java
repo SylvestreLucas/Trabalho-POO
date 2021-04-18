@@ -1,7 +1,7 @@
 package Classes;
 
 public class Frete {
-	float valorMin;
+	public float valorMin;
 	
 	
 	void CalcularValorLocalização() {
